@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-ts",
+  "version": "1.0.0",
+  "description": "Projeto simples para resolver LeetCode em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "run:problem": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+}
